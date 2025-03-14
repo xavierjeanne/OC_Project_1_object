@@ -1,3 +1,12 @@
 class Book :
-    def __init__(self, name):
-        self.name = name
+    def __init__(self, title,url,upc,price_including_taxe,price_excluding_taxe,number_available,product_description,category,review_rating,image_url):
+        self.title = title
+        self.url = url
+        self.upc = upc
+        self.price_including_taxe = price_including_taxe
+        self.price_excluding_taxe = price_excluding_taxe
+        self.number_available = number_available
+        self.product_description = product_description
+        self.category = category
+        self.review_rating = review_rating
+        self.image_url = image_url
