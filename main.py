@@ -1,5 +1,5 @@
-from views.main_view import Main
+from controller.controller import Controller
 
 if __name__ == "__main__":
     
-    Main().run()
+    Controller().run()
